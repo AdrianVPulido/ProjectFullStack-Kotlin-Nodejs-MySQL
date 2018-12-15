@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TPVAndroid</string>
+    <string name="lol">Chunti</string>
+    <string name="title_home">Comandas</string>
+    <string name="title_dashboard">Productos</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>
