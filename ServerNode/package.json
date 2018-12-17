@@ -14,7 +14,10 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "consign": "^0.1.6",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.9.1",
     "mysql2": "^1.6.4",
     "sequelize": "^4.41.2"
   },

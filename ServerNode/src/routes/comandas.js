@@ -18,7 +18,7 @@ module.exports = app => {
         });
     });
 
-    app.route('/comandas/:id')
+    app.route('/comandas/:idcomanda')
     .get((req, res) => {
         Comandas.findOne({where: req.params})
         .then(result => res.json(result))

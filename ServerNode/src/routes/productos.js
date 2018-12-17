@@ -18,7 +18,7 @@ module.exports = app => {
         });
     });
 
-    app.route('/productos/:id')
+    app.route('/producto/:idproducto')
     .get((req, res) => {
         Productos.findOne({where: req.params})
         .then(result => res.json(result))
